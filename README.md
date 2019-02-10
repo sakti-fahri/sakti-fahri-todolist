@@ -5,7 +5,15 @@
 <p> 2019 <p>
 </div>
 
-#[Screenshoot]
+Website Features :
+
+- Add,
+- Edit,
+- Delete,
+- Search Todos.
+
+# [Screenshoot]
+
 <img src="./assets/Home.png" />
 <img src="./assets/App.png" />
 
