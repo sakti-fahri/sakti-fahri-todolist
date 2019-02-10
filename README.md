@@ -1,7 +1,7 @@
 # Sakti-fahri ToDo List
 
 <div align="center">
-<img src="./assets/logo.png" />
+<img src="./assets/profile.png" />
 <p> 2019 <p>
 </div>
 
