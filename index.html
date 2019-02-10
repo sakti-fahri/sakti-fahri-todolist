@@ -4,45 +4,28 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Sakti-fahri To Do List</title>
+    <title>MyTask</title>
+    <link rel="stylesheet" href="./index.css" />
   </head>
 
   <body>
-    <!--NAVIGATION-->
-    <nav id="nav" class="nav">
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="#.html">App</a></li>
-        <li><a href="#.html">About</a></li>
-      </ul>
-    </nav>
-
-    <div class="container">
-      <!--HEADER-->
-      <header>
-        <h1 id="title" class="title">Sakti-fahri To Do List</h1>
-      </header>
-
-      <!--FORM-->
-      <main>
-        <form id="login">
-          <h3>Login to your account</h3>
-          <div class="login-section">
-            <label class="login-label" for="email">Email:</label>
-            <input
-              class="login-input"
-              type="email"
-              placeholder="name@example.com"
-            />
-          </div>
-
-          <div class="login-section">
-            <label class="login-label" for="password">Password:</label>
-            <input class="login-input" type="password" placeholder="Password" />
-          </div>
-          <input class="login-button" type="button" value="Login" />
-        </form>
-      </main>
+    <div class="logo">
+      <img src="./assets/logo.png" />
     </div>
+    <div id="container" class="container">
+      <div class="login">
+        <h3>Let's get going</h3>
+        <div>
+          <input class="input-label" type="email" placeholder="email" />
+        </div>
+        <div>
+          <input class="input-label" type="password" placeholder="password" />
+          <div>
+            <input class="input-button-label" type="button" value="Login" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
   </body>
 </html>
