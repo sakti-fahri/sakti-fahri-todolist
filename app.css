@@ -1,4 +1,5 @@
 /* Include the padding and border in an element's total width and height */
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 * {
   box-sizing: border-box;
 }
@@ -12,11 +13,12 @@ body {
   margin-top: 40px;
   margin-bottom: 30px;
   color: rgb(65, 60, 60);
+  font-family: Montserrat;
 }
 
 .container-top {
-  margin-left: 25%;
-  margin-right: 25%;
+  margin-left: 30%;
+  margin-right: 30%;
   margin-bottom: 10%;
 }
 .container-bottom {
@@ -30,7 +32,7 @@ body {
 } */
 
 .todolist-item {
-  min-width: 150px;
+  min-width: 200px;
   min-height: 100px;
   background: #fff;
   border-radius: 4px;
