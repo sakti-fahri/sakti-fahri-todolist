@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Sakti-Fahri TodoList</title>
+    <link rel="stylesheet" href="./app.css" />
+  </head>
+
+  <body>
+    <!-- HEAD -->
+    <header>
+      <div>
+        <nav id="nav" class="nav">
+          <h1 id="title" class="title">
+            <!-- <img src="./assets/logo.png" alt="Logo" height="30" width="30" /> -->
+            To do List
+          </h1>
+        </nav>
+      </div>
+    </header>
+    <!-- BODY -->
+
+    <main class="container">
+      <div class="container-top">
+        <!-- TOP -->
+
+        <form id="myDIV" class="addTodo" onsubmit="MyNotes.addTodo()">
+          <div class="todoTitle">
+            <input type="text" id="todoTitle" placeholder="Title..." />
+          </div>
+          <input type="text" id="myInput" placeholder="List item..." />
+          <button class="addBtn" typ="submit">Add</button>
+        </form>
+
+        <ul id="myUL" class="myUL"></ul>
+        <span class="saveBtn" onclick="MyNotes.addBigNotes()">SAVE</span>
+      </div>
+      <div class="border-bottom">
+        <div id="container-bottom" class="container-bottom">
+          <!-- BOTTOM -->
+        </div>
+      </div>
+    </main>
+    <!-- FOOTER -->
+    <!-- <footer><small>2019 Impactbyte</small></footer> -->
+    <script src="app.js"></script>
+  </body>
+</html>
