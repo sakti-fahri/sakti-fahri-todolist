@@ -2,7 +2,6 @@
 
 <div align="center">
 <img src="./assets/profile.png" />
-<p> 2019 <p>
 </div>
 
 Website Features :

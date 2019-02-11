@@ -1,18 +1,36 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Cookie');
+
 * {
   box-sizing: border-box;
 }
 
 body {
-  background-color: #f5fdfb;
+  background-color: #d54834;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  font-size: 18px;
 }
 
 .title {
   text-align: center;
   margin-top: 40px;
   margin-bottom: 30px;
-  color: rgb(65, 60, 60);
-  font-family: Montserrat;
+
+  font-family: Cookie;
+  font-size: 48px;
+
+  color: #fff7f7;
+}
+
+.myInput {
+  background: #ffffff;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
 }
 
 .todoTitle {
@@ -42,11 +60,16 @@ body {
 .todolist-item {
   min-width: 207px;
   min-height: 100px;
-  background: #fff;
-  border-radius: 4px;
+
   margin-right: 20px;
   margin-bottom: 20px;
   padding: 10px;
+
+  background: #ffff55;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
 }
 
 .liTodolistItem {
@@ -146,11 +169,14 @@ ul {
 
 /* Style the header */
 .addTodo {
-  background-color: #cbdbe6;
   padding: 30px 40px;
   text-align: center;
-  border: 1.5px solid black;
-  border-bottom: none;
+
+  background: #ffff55;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
 }
 
 .todolist-item {
@@ -183,16 +209,21 @@ input {
 
 /* Style the "Add" button */
 .addBtn {
-  padding: 10px;
-  width: 25%;
-  background: #d9d9d9;
-  color: #555;
+  padding: 9px;
+  width: 20%;
+  margin-left: 10px;
+
   float: left;
   text-align: center;
   font-size: 16px;
   cursor: pointer;
   transition: 0.3s;
-  border-radius: 0;
+
+  background: #e5e5e5;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
 }
 
 .addBtn:hover {
@@ -201,8 +232,8 @@ input {
 
 .saveBtn {
   padding: 10px;
+  margin-top: 5px;
   width: 100%;
-  background: #f54d7f;
   color: black;
   float: left;
   text-align: center;
@@ -211,7 +242,12 @@ input {
   transition: 0.3s;
   border-radius: 0;
   font-size: 14px;
-  border: 1.5px solid black;
+
+  background: #e5e5e5;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
 }
 
 .saveBtn:hover {
