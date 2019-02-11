@@ -8,11 +8,13 @@ const MyNotes = {
   notes: [],
   bigNotes: [],
 
+  // DISPLAY ALL
   displayAll: () => {
     MyNotes.display();
     MyNotes.displayBottom();
   },
 
+  // DISPLAY TOP SECTION
   display: (data = MyNotes.notes) => {
     textNotesDOM.innerHTML = '';
 
@@ -31,6 +33,7 @@ const MyNotes = {
     });
   },
 
+  // DISPLAY BOTTOM SECTION
   displayBottom: (elementBottom = MyNotes.bigNotes) => {
     const todolistDOM = document.getElementById('container-bottom');
     todolistDOM.innerHTML = '';
@@ -57,6 +60,7 @@ const MyNotes = {
     });
   },
 
+  // ADD TODO SECTION
   addTodo: () => {
     event.preventDefault();
 
@@ -76,6 +80,7 @@ const MyNotes = {
     }
   },
 
+  // ADD TODOS LIST
   addBigNotes: () => {
     event.preventDefault();
 
@@ -101,6 +106,7 @@ const MyNotes = {
     MyNotes.displayAll();
   },
 
+  // EDIT TASK ON TOP SECTION
   editTask: id => {
     const notesEdit = prompt('Edit your task...');
 
@@ -116,6 +122,7 @@ const MyNotes = {
     }
   },
 
+  //REMOVE TASK ON TOP SECTION
   removeTask: id => {
     const deleteNote = MyNotes.notes.filter(note => {
       return note.id !== id;
@@ -124,6 +131,7 @@ const MyNotes = {
     MyNotes.display();
   },
 
+  //REMOVE TODOLIST ON BOTTOM SECTION
   removeTodolist: id => {
     const deleteTodo = MyNotes.bigNotes.filter(todo => {
       return todo.id != id;
@@ -132,6 +140,7 @@ const MyNotes = {
     MyNotes.displayAll();
   },
 
+  //THIS PART HAS NOT BEEN USED
   searchTask: () => {
     event.preventDefault();
     const keyword = document.getElementById('search-text').value;
@@ -157,4 +166,5 @@ list.addEventListener(
   false
 );
 
+//CALL DISPLAY ALL FUNCTION
 MyNotes.displayAll();

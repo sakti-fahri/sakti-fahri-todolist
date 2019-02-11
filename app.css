@@ -35,7 +35,6 @@ body {
 
 .todoTitle {
   border-radius: 5px;
-  /* border-color: 1.5px solid black; */
 }
 
 .container-top {
@@ -52,10 +51,6 @@ body {
   -webkit-flex-wrap: wrap;
   flex: wrap;
 }
-
-/* .border-bottom {
-  border-top: 1.5px solid black;
-} */
 
 .todolist-item {
   min-width: 207px;

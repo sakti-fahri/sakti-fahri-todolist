@@ -9,21 +9,17 @@
   </head>
 
   <body>
-    <!-- HEAD -->
     <header>
       <div>
         <h1 id="title" class="title">
-          <!-- <img src="./assets/logo.png" alt="Logo" height="30" width="30" /> -->
           To do List
         </h1>
       </div>
     </header>
-    <!-- BODY -->
 
     <main class="container">
+      <!-- TOP-CONTAINER -->
       <div class="container-top">
-        <!-- TOP -->
-
         <form id="myDIV" class="addTodo" onsubmit="MyNotes.addTodo()">
           <div class="todoTitle">
             <input type="text" id="todoTitle" placeholder="Title..." />
@@ -32,22 +28,17 @@
             type="text"
             id="myInput"
             class="myInput"
-            placeholder="List item..."
+            placeholder="Add your todos..."
           />
           <button class="addBtn" typ="submit">Add</button>
         </form>
-
         <ul id="myUL" class="myUL"></ul>
         <span class="saveBtn" onclick="MyNotes.addBigNotes()">SAVE</span>
       </div>
-      <div class="border-bottom">
-        <div id="container-bottom" class="container-bottom">
-          <!-- BOTTOM -->
-        </div>
-      </div>
+      <!-- BOTTOM CONTAINER -->
+      <div id="container-bottom" class="container-bottom"></div>
     </main>
-    <!-- FOOTER -->
-    <!-- <footer><small>2019 Impactbyte</small></footer> -->
+
     <script src="app.js"></script>
   </body>
 </html>
