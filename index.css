@@ -46,23 +46,3 @@ main {
   display: flex;
   justify-content: flex-end;
 }
-
-/* .title {
-  font-family: 'Montserrat';
-  font-size: 1.5em;
-}
-
-footer {
-  width: 1000;
-  border-top: 1.5px solid black;
-  margin: 10px auto;
-  padding: 5px;
-  text-align: center;
-}
-
-.container-app {
-  width: 350px;
-  border: 1.5px solid black;
-  margin: 10px auto;
-  padding: 10px;
-} */
