@@ -30,10 +30,15 @@
             class="myInput"
             placeholder="Add your todos..."
           />
-          <button class="addBtn" typ="submit">Add</button>
+          <button class="addBtn" type="submit">Add</button>
         </form>
         <ul id="myUL" class="myUL"></ul>
-        <span class="saveBtn" onclick="MyNotes.addBigNotes()">SAVE</span>
+        <input
+          type="submit"
+          class="saveBtn"
+          value="SAVE"
+          onclick="MyNotes.addBigNotes()"
+        />
       </div>
       <!-- BOTTOM CONTAINER -->
       <div id="container-bottom" class="container-bottom"></div>

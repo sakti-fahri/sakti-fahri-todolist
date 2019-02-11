@@ -9,29 +9,37 @@
   </head>
 
   <body>
-    
     <main>
       <!-- IMAGE OF LOGO -->
-<img src="./assets/logo.png" />
+      <img src="./assets/logo.png" />
 
-<div id="container" class="container">
-
-  <!-- LOGIN SECTION -->
-  <div class="login">
-    <h3>Let's get going</h3>
-    <div>
-      <input id="signinForm" class="input-label" type="email" placeholder="email" />
-    </div>
-    <div>
-      <input id="passwordForm" class="input-label" type="password" placeholder="password" />
-      <div class="button-signin">
-        <input class="input-button-label" type="button" value="Login" onclick="login()" />
+      <div id="container" class="container">
+        <!-- LOGIN SECTION -->
+        <form id="login" class="login" onsubmit="login()">
+          <h3>Let's get going</h3>
+          <div>
+            <input
+              id="signinForm"
+              class="input-label"
+              type="text"
+              placeholder="username"
+            />
+          </div>
+          <div>
+            <input
+              id="passwordForm"
+              class="input-label"
+              type="password"
+              placeholder="password"
+            />
+            <div class="button-signin">
+              <input class="input-button-label" type="submit" value="Login" />
+            </div>
+          </div>
+        </form>
       </div>
-    </div>
-  </div>
     </main>
-    
-   
+
     <script src="index.js"></script>
   </body>
 </html>
